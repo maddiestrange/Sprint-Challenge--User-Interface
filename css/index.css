@@ -104,7 +104,8 @@ header{
   .jumbo{
       margin-bottom: 25px;
       margin-top: 10px;
-      width: 100%}
+      width: 100%
+    }
 
 .top-content {
     display: flex;
@@ -133,9 +134,10 @@ header{
 
 .middle-content .boxes {
     width: 100%;
+    margin-right: 60px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .middle-content .boxes .box {
