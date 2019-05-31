@@ -71,26 +71,32 @@ p {
     margin: 0 auto;
 }
 
+.about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
 /* Header Styles */
 
 
 header{
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 35px;
     margin-bottom: 35px;
-    align-items: center;
+    align-items: flex-end;
   }
   
   header nav{
       width: 70%;
       display: flex;
       justify-content: space-between;
+      margin-right: 30px;
   }
       
   header a {
-    font-size: 12px;
+    font-size: 14px;
     color: black;
     text-decoration: none;
   }
@@ -98,8 +104,7 @@ header{
   .jumbo{
       margin-bottom: 25px;
       margin-top: 10px;
-      width: 100%
-  }
+      width: 100%}
 
 .top-content {
     display: flex;
@@ -141,7 +146,7 @@ header{
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 #a{
@@ -215,4 +220,52 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.midbox{
+	border-top: 1px black dashed;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.stuff{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 49%;
+    padding: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.button{
+    font-size: 15px;
+    padding: 10px 5px 10px 5px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: .5em;
+    background: white;
+	margin-top: 20px;
+	width: 38%;
+}
+
+.midbox image{
+    margin-bottom: 10px;
+}
+
+.bread{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bread1{
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
