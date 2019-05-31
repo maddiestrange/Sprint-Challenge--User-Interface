@@ -71,6 +71,42 @@ p {
     margin: 0 auto;
 }
 
+.about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    align-items: flex-end;
+  }
+  
+  header nav{
+      width: 70%;
+      display: flex;
+      justify-content: space-between;
+      margin-right: 30px;
+  }
+      
+  header a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .jumbo{
+      margin-bottom: 25px;
+      margin-top: 10px;
+      width: 100%
+    }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -86,6 +122,7 @@ p {
 }
 
 .middle-content {
+    width: 100%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -96,9 +133,11 @@ p {
 }
 
 .middle-content .boxes {
+    width: 100%;
+    margin-right: 60px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .middle-content .boxes .box {
@@ -109,7 +148,47 @@ p {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+#a{
+    background-color: teal;
+}
+
+#b{
+    background-color: gold;
+}
+
+#c{
+    background-color: cadetblue;
+}
+
+#d{
+    background-color: coral;
+}
+
+#e{
+    background-color: crimson;
+}
+
+#f{
+    background-color: forestgreen;
+}
+
+#g{
+    background-color: darkorchid;
+}
+
+#h{
+    background-color: hotpink;
+}
+
+#i{
+    background-color: indigo;
+}
+
+#j{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +222,55 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.midbox{
+	border-top: 1px black dashed;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	padding-top: 10px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+}
+
+.stuff{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 49%;
+    padding-right: 10px;
+    padding-left: 10px; 
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    border-bottom: 1px dashed black;
+}
+
+.button{
+    font-size: 15px;
+    padding: 10px 5px 10px 5px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: .5em;
+    background: white;
+	margin-top: 20px;
+	width: 38%;
+}
+
+.midbox image{
+    margin-bottom: 10px;
+}
+
+.bread{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bread1{
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
